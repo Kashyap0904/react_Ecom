@@ -1,0 +1,241 @@
+/* ===================================
+========= register page  */
+/* .form-container {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  }
+  
+  .form-container form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .form-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .form-container form input {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+  }
+  
+  .form-container form button {
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: #000;
+    color: white;
+    width: 250px;
+  }
+  
+  .form-container form button:hover {
+    border: 1px solid black;
+    background: #000000; 
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); 
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    );
+  }
+  
+  .forgot-btn {
+    background-color: #434343a4 !important;
+    border: 0 !important;
+  }
+  
+  .forgot-btn:hover {
+    color: white !important;
+  } */
+
+  /*-------------------------------------------------------*/
+  /* author: https://uiverse.io/Smit-Prajapati/swift-liger-76
+ */
+ 
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  background: linear-gradient(0deg, rgb(138, 192, 231) 0%, rgb(244, 247, 251) 100%);
+  border-radius: 40px;
+  border: 5px solid rgb(35, 81, 141);
+  box-shadow: rgba(27, 86, 113, 0.878) 0px 30px 30px -20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-content: center;
+}
+
+.heading {
+  text-align: center;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(16, 137, 211);
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form .input {
+  width: 100%;
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+}
+
+.form .input::-moz-placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .input::placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .input:focus {
+  outline: none;
+  border-inline: 5px solid #12B1D1;
+}
+
+.form .forgot-password {
+  display: flex;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.form .create-new{
+  display: flex;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form .create-new a {
+  font-size: 13px;
+  color: #0400ff;
+  text-decoration: underline;
+}
+
+.form .forgot-password a {
+  font-size: 13px;
+  color: #0400ff;
+  text-decoration: underline;
+}
+
+.form .login-link{
+  display: flex;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form .login-link a {
+  font-size: 13px;
+  color: #0400ff;
+  text-decoration: underline;
+}
+
+.form .have-acc{
+  display: flex;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.form .login-button {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(2, 37, 59) 0%, rgb(18, 177, 209) 100%);
+  color: white;
+  padding-block: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.form .login-button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.form .login-button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}
+
+.form .register-button {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(2, 37, 59) 0%, rgb(18, 177, 209) 100%);
+  color: white;
+  padding-block: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.form .register-button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.form .register-button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}
+
+.form .forgot-pass-button {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(2, 37, 59) 0%, rgb(18, 177, 209) 100%);
+  color: white;
+  padding-block: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.form .forgot-pass-button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.form .forgot-pass-button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}

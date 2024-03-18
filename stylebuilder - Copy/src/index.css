@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Playfair Display", serif; */
+
+/* Navbar CSS--------------------- */
+.navbar{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 7px 3px -3px;
+  --webkit-box-shadow: 0 7px 3px -3px;
+  border-bottom:  light !important;
+}
+
+.nav-link:hover{
+  color: rgb(16, 137, 211);
+  font-weight: 600 !important;
+  transition:  background-color 0.2s;
+}
+
+.dropdown-item{
+  color: #000000;
+}
+
+.dropdown-item:hover{
+  color: rgb(16, 137, 211);
+  font-weight: 600 !important;
+  transition:  background-color 0.2s;
+}
+
+.dropdown-item:active{
+  background: linear-gradient(45deg, rgb(2, 37, 59) 0%, rgb(18, 177, 209) 100%);
+  color:#fff;
+  border-radius: 5px;
+}
+.nav-link:active{
+  background: linear-gradient(45deg, rgb(2, 37, 59) 0%, rgb(18, 177, 209) 100%);
+  color:#fff;
+  border-radius: 5px;
+}
+
+.active{
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand{
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+/* .nav-link hr{
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background: #000000;
+} */
+
+
+/* page not found-------------------------- */
+
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: normal;
+}
+
+.pnf-btn{
+  color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.pnf-btn:hover{
+  color:black;
+  font-weight: 500;
+  border: 3px solid black;
+}
+
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* register--------------------------- */
+
+/* .register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+} */
+
+/* footer------------------------------- */
+
+.footer{
+  color: white;
+  padding: 20px;
+  background: #000000;
+  background: -webkit-linear-gradient(
+    to top,
+    #717171,
+    #000000
+  );
+  background: linear-gradient(to top, #717171, #000000);
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover{
+  color: rgb(16, 137, 211);
+  border-bottom: 2px solid  rgb(16, 137, 211);;
+}
