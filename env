@@ -1,4 +1,4 @@
 PORT = 8080
 DEV_MODE = development
-MONGO_URL = mongodb+srv://stylebuilder09:stylebuilder09@cluster0.zbzaksd.mongodb.net/styleBuilder
+MONGO_URL =
 JWT_SECRET = HHIYIU^^^$&$jvgqwegflwfwfbw
